@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-security-gateway
+data:
+  upstream-base-url: ""
+  rate-limit: "30"
+  rate-window-seconds: "60"
